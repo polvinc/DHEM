@@ -104,15 +104,17 @@ Using [OnStep's configurator spreadsheet](http://o.baheyeldin.com:1111), I chose
 </p>
 
 ## Motor holding
-<img align="left"  src="/images/printing/Motor_spacer.jpeg" width="20%">
+<p>
+  <img align="left"  src="/images/printing/Motor_spacer.jpeg" width="20%">
 
-We start assembling the mount, attaching the motor and its planet gear to the 3D-printed motor spacer with M4 screws. I printed most of my parts in PETG or ABS, with an Ultimaker S7, in 0.15mm layers, slow speed, high infill, and 101% flow.
-Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides with M6. An M6 (external) to M4 (internal) insert is housed on one side of the two Rexroths. These two bars are then positioned in their housings, and secured with 4 T-nuts. The M6/M4 insert is located on the motor shaft side. It will be used to attach the assembly to the harmonic gearbox. Note the orientation of the Nema 17 motor in relation to the two 120mm bars. The motor wires must be oriented in the space available on the bar side.
+  We start assembling the mount, attaching the motor and its planet gear to the 3D-printed motor spacer with M4 screws. I printed most of my parts in PETG or ABS, with an Ultimaker S7, in 0.15mm layers, slow speed, high infill, and 101% flow.
+  Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides with M6. An M6 (external) to M4 (internal) insert is housed on one side of the two Rexroths. These two bars are then positioned in their housings, and secured with 4 T-nuts. The M6/M4 insert is located on the motor shaft side. It will be used to attach the assembly to the harmonic gearbox. Note the orientation of the Nema 17 motor in relation to the two 120mm bars. The motor wires must be oriented in the space available on the bar side.
 
-<img align="left"  src="/images/printing/CSF_spacer.jpeg" width="20%">
+  <img align="left"  src="/images/printing/CSF_spacer.jpeg" width="20%">
 
-Once the CSF spacer has been centered on the harmonic gearbox, the assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
-Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
+  Once the CSF spacer has been centered on the harmonic gearbox, the assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
+  Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
+</p>
 <p align="center">
   <img src="/images/DHEM_assembly/DHEM_assembly-6.jpeg" width="22.5%">
   <img src="/images/DHEM_assembly/DHEM_assembly-8.jpeg" width="22.5%">
