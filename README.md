@@ -141,7 +141,7 @@ All that remains is to attach the adapter rings for your dovetail/arca clamp. I 
 <p align="center">
   <img src="/images/HEQpol/HEQpol-19.jpg" width="39%">
   <img src="/images/HEQpol/HEQpol-21.jpg" width="39%">
-  <img src="/images/HEQpol/IMG_0523.jpeg" width="20%">
+  <img src="/images/HEQpol/IMG_0523.jpeg" width="19.5%">
 </p>
 
 ## Final assembly
