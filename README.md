@@ -12,7 +12,8 @@ The first results of the performance tests are up to my expectations for the mom
 
 ---
 # What the hell is this DHEM thing?
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HarmonicDriveAni.gif/240px-HarmonicDriveAni.gif" width="20%">
+
+<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HarmonicDriveAni.gif/240px-HarmonicDriveAni.gif" width="15%">
 
 The technology used in this mount is similar to that used in robotics or industrial production lines. The main mechanical gearbox is a harmonic gearbox ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)). It can produce surprising results for an astronomical mount at first glance; the mount appears grossly undersized and unbalanced, whereas the whole assembly is extremely robust and stable, with enormous torque.
 Conventional equatorial mounts require the use of counterweights. The aim of this development is to make available the design of a harmonic mount that can be built in your garage, with few tools or mechanical knowledge, for a price of less than 1000€. Of course, the proud aim is to achieve performance equivalent to that of commercial harmonic reduction mounts.
@@ -125,6 +126,7 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
 <img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
 Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
+
 <p align="center">
   <img src="/images/HEQpol/HEQpol-17.jpg" width="48.4%">
   <img src="/images/HEQpol/HEQpol-18.jpg" width="48.4%">
@@ -154,7 +156,8 @@ I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. 
 
 ---
 # Tests
-<img style="float: right;" src="/images/periodic_error/IMG_0544.jpeg" width="30%">
+<img align="right" src="/images/periodic_error/IMG_0544.jpeg" width="30%">
+
 - [Vélizy astronomy club](https://www.astro-velizy.fr/)
 - first tests
 - strategy
@@ -172,6 +175,7 @@ Resolution in arcsec per pixel can then be calculated as follows:
 <p align="center">
   <b>pixel[µm] x 206264.81[arcsec] / (1000 x focal)[µm] = [arcsec/pixel]</b>
 </p>
+
 In this test, I used a 480mm focal length and a CCD with 4.93µm pixel size (thanks to [Vélizy astronomy club](https://www.astro-velizy.fr/)). This gives an image resolution of around 2.12"/px. Below is a stacked image of approximately 30min of exposure (180 exposures of 10sec). The telescope was pointing at Altair. We could take into account the correction linked to the choice of star: Altair is at 8°57' apparent declination. We therefore need to multiply the amplitude by 1.012 (or forget this correction, as we're talking about a 1% error).
 <p align="center">
   <img src="/images/periodic_error/periodic-error-all_stacked.jpg" width="98%">
