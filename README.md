@@ -252,7 +252,7 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 - How does the mechanics behave in terms of inertia, torque and increase in on-board mass (with or without counterweight)?? 
 - What is the impact of the small mechanical play on the declination axis during correction pulses (tilting moment stiffness = 18.6 Nm/arcmin)?
 - Take a picture !
-- Comparison with AM5 and EQ6r
+- Comparison with AM5 and EQ6-R
 - And so on !
 
 
