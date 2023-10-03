@@ -8,10 +8,10 @@ I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordi
 
 I've already designed or built several robots for automated photo-taking. These were either made from designs sourced from various online designers, or were self-designed. I'm only sharing the current version, the DHEM equatorial mount, which is clearly the most accomplished.
 <p align="center">
-  <img src="/images/HEQpol/IMG_0566.jpeg" width="20%">
-  <img src="/images/HEQpol/IMG_0567.jpeg" width="20%">
-  <img src="/images/HEQpol/IMG_0568.jpeg" width="20%">
-  <img src="/images/HEQpol/IMG_0569.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0566.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0567.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0568.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0569.jpeg" width="20%">
 </p> 
 
 The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
@@ -44,7 +44,7 @@ Conventional equatorial mounts require the use of counterweights. The aim of thi
 ## 3D design
 The 3D design was carried out on SolidWorks 2022 and OnShape. Here's a [sharing of the design on OnShape](https://cad.onshape.com/documents/8746a60a1be674f3c5c8962f/w/75df6ccf1ddba0eb14d42c4d/e/8f9338159e7a1463ffcd3219?renderMode=0&uiState=651bece70db1c514a39d73c3). The project is a bit of a mess, but it includes all the components needed to assemble the mount. You will find all stl files for printing in this repo.
 <p align="center">
-  <img src="/images/3Dprint/global-vue.jpeg" width="96.8%">
+  <img src="/images/printing/global-vue.jpeg" width="96.8%">
 </p>
 
 ## Bill of materials
@@ -54,7 +54,7 @@ Here's the shopping list for two axes. Prices are approximate: I already had qui
 
 I think you can manage for less by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 times less with no-name. I had Bosch in my stuff, so I didn't deprive myself.
 
-![final_assembly_1](/images/HEQpol/HEQpol-1.jpeg)
+![final_assembly_1](/images/DHEM_assembly/DHEM_assembly-1.jpeg)
 
 | Name | Quantity | Reference | Price € | Link |
 | -------- | -------- | -------- | -------- | -------- |
@@ -87,8 +87,8 @@ Harmonic gearboxes ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearin
 Put another way, in the case of an astronomical mount: they can drive much heavier loads without the need for counterweights, all with a very low self-weight!
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-2.jpeg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-3.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-2.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-3.jpeg" width="48.4%">
 </p> 
 
 The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. You can find lots of them on ebay. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? According to datashet, it can handle more than 50Nm of torque and it also has a very comfortable permissible radial load of over 70Kg.
@@ -99,84 +99,84 @@ The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/file
 Using [OnStep's configurator spreadsheet](http://o.baheyeldin.com:1111), I chose to drive the harmonic gearbox with a planetary gearbox [17HS15-1584S-MG10](https://www.omc-stepperonline.com/fr/nema-17-moteur-pas-a-pas-l-40mm-rapport-de-vitesse-10-1-reducteur-planetaire-serie-mg-17hs15-1584s-mg10), in order to achieve good tracking resolution, a good slew rate and a good number of steps/deg. Its reduction ratio is 1/10 and it is given for a low backlash (around 30 arcmin). Seen through the telescope, this low backlash will be divided by 100 by the main gearbox. You can probably use another motor with a planetary gearbox.
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-4.jpeg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-5.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-4.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-5.jpeg" width="48.4%">
 </p>
 
 ## Motor holding
-<img align="left"  src="/images/3Dprint/Motor_spacer.jpeg" width="20%">
+<img align="left"  src="/images/printing/Motor_spacer.jpeg" width="20%">
 
 We start assembling the mount, attaching the motor and its planet gear to the 3D-printed motor spacer with M4 screws. I printed most of my parts in PETG or ABS, with an Ultimaker S7, in 0.15mm layers, slow speed, high infill, and 101% flow.
 Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides with M6. An M6 (external) to M4 (internal) insert is housed on one side of the two Rexroths. These two bars are then positioned in their housings, and secured with 4 T-nuts. The M6/M4 insert is located on the motor shaft side. It will be used to attach the assembly to the harmonic gearbox. Note the orientation of the Nema 17 motor in relation to the two 120mm bars. The motor wires must be oriented in the space available on the bar side.
 
-<img align="left"  src="/images/3Dprint/CSF_spacer.jpeg" width="20%">
+<img align="left"  src="/images/printing/CSF_spacer.jpeg" width="20%">
 
 Once the CSF spacer has been centered on the harmonic gearbox, the assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
 Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-6.jpeg" width="22.5%">
-  <img src="/images/HEQpol/HEQpol-8.jpeg" width="22.5%">
-  <img src="/images/HEQpol/HEQpol-9.jpeg" width="50.6%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-6.jpeg" width="22.5%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-8.jpeg" width="22.5%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-9.jpeg" width="50.6%">
 </p>
 
 ## Sides Rex
-<img align="left"  src="/images/3Dprint/Rex_side.jpeg" width="20%">
+<img align="left"  src="/images/printing/Rex_side.jpeg" width="20%">
 
 To assemble the frame sides, first cut two 76mm bars and four 100mm bars. You could also use 2 Bosch Rexroth [20 x 40 mm aluminium profiles](https://fr.rs-online.com/web/p/tubes-et-profiles-de-structures/2123294?gb=s), cut to 100mm. The 100mm bars are M6 tapped on one side. These threads will be used to secure the frame's back plate. Prepare 4 angle brackets with M4 and T-nuts.
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-10.jpeg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-11.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-10.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-11.jpeg" width="48.4%">
 </p> 
 
 Assemble with M4 T-nuts and four squares as shown in the pictures. Take care to ensure that the T-nuts are correctly seated in the grooves of the Rexroth bars.
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-12.jpeg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-13.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-12.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-13.jpeg" width="48.4%">
 </p>
 
 The next step is to assemble the sides on the harmonic reducer. The harmonic reducer is always the reference point for perpendicularity. Fixing is achieved with 4 M4 screws and 4 T-nuts.
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-14.jpeg" width="32%">
-  <img src="/images/HEQpol/HEQpol-15.jpeg" width="32%">
-  <img src="/images/HEQpol/HEQpol-16.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-14.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-15.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-16.jpeg" width="32%">
 </p> 
 
-<img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
+<img align="left"  src="/images/printing/Side.jpeg" width="20%">
 
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
 
-<img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
+<img align="left"  src="/images/printing/Back.jpeg" width="20%">
 
 Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
 You have almost finished assembling a DHEM axis!
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-17.jpeg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-18.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-17.jpeg" width="48.4%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-18.jpeg" width="48.4%">
 </p>
 
 ## Vixen/Arca mount
 All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-19.jpeg" width="38%">
-  <img src="/images/HEQpol/HEQpol-21.jpeg" width="38%">
-  <img src="/images/HEQpol/IMG_0523.jpeg" width="19%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-19.jpeg" width="38%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-21.jpeg" width="38%">
+  <img src="/images/DHEM_assembly/IMG_0523.jpeg" width="19%">
 </p>
 
 ## Final assembly
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-24.jpeg" width="98%">
-  <img src="/images/HEQpol/HEQpol-25.jpeg" width="98%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-24.jpeg" width="98%">
+  <img src="/images/DHEM_assembly/DHEM_assembly-25.jpeg" width="98%">
 </p>
 
 I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. In the future, I plan to design a Rexroth-based equatorial table wich fits with the DHEM.
 <p align="center">
-  <img src="/images/HEQpol/IMG_0562.jpeg" width="32%">
-  <img src="/images/HEQpol/IMG_0563.jpeg" width="32%">
-  <img src="/images/HEQpol/IMG_0565.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/IMG_0562.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/IMG_0563.jpeg" width="32%">
+  <img src="/images/DHEM_assembly/IMG_0565.jpeg" width="32%">
 </p> 
 
 
