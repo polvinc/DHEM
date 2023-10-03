@@ -108,25 +108,35 @@ Don't forget to insert the key on the motor shaft, and secure the shaft in the h
 
 ## Sides Rex
 <img align="left"  src="/images/3Dprint/Rex_side.jpeg" width="20%">
+
 To assemble the frame sides, first cut two 76mm bars and four 100mm bars. You could also use 2 Bosch Rexroth [20 x 40 mm aluminium profiles](https://fr.rs-online.com/web/p/tubes-et-profiles-de-structures/2123294?gb=s), cut to 100mm. The 100mm bars are M6 tapped on one side. These threads will be used to secure the frame's back plate. Prepare 4 angle brackets with M4 and T-nuts.
+
 <p align="center">
   <img src="/images/HEQpol/HEQpol-10.jpeg" width="48.4%">
   <img src="/images/HEQpol/HEQpol-11.jpeg" width="48.4%">
 </p> 
+
 Assemble with M4 T-nuts and four squares as shown in the pictures. Take care to ensure that the T-nuts are correctly seated in the grooves of the Rexroth bars.
+
 <p align="center">
   <img src="/images/HEQpol/HEQpol-12.jpeg" width="48.4%">
   <img src="/images/HEQpol/HEQpol-13.jpeg" width="48.4%">
 </p>
+
 The next step is to assemble the sides on the harmonic reducer. The harmonic reducer is always the reference point for perpendicularity. Fixing is achieved with 4 M4 screws and 4 T-nuts.
+
 <p align="center">
   <img src="/images/HEQpol/HEQpol-14.jpeg" width="32%">
   <img src="/images/HEQpol/HEQpol-15.jpeg" width="32%">
   <img src="/images/HEQpol/HEQpol-16.jpeg" width="32%">
 </p> 
+
 <img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
+
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
+
 <img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
+
 Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
 
 You have almost finished assembling a DHEM axis!
