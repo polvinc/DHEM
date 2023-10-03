@@ -12,7 +12,7 @@ The first results of the performance tests are up to my expectations for the mom
 
 ---
 # What the hell is this DHEM thing?
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HarmonicDriveAni.gif/240px-HarmonicDriveAni.gif" width="30%">
+<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HarmonicDriveAni.gif/240px-HarmonicDriveAni.gif" width="27%">
 
 The technology used in this mount is similar to that used in robotics or industrial production lines. The main mechanical gearbox is a harmonic gearbox ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)). It can produce surprising results for an astronomical mount at first glance; the mount appears grossly undersized and unbalanced, whereas the whole assembly is extremely robust and stable, with enormous torque.
 Conventional equatorial mounts require the use of counterweights. The aim of this development is to make available the design of a harmonic mount that can be built in your garage, with few tools or mechanical knowledge, for a price of less than 1000€. Of course, the proud aim is to achieve performance equivalent to that of commercial harmonic reduction mounts.
@@ -74,10 +74,12 @@ Put another way, in the case of an astronomical mount: they can drive much heavi
   <img src="/images/HEQpol/HEQpol-2.jpg" width="48.4%">
   <img src="/images/HEQpol/HEQpol-3.jpg" width="48.4%">
 </p> 
-The harmonic reducer model chosen ([CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50)) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/)'s DIY mount. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? It can handle more than 50Nm of torque, with an accuracy better than 1.5arcmin = ±45arcsec. It also has a very comfortable permissible radial load of over 70Kg.
+
+The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? It can handle more than 50Nm of torque, with an accuracy better than 1.5arcmin = ±45arcsec. It also has a very comfortable permissible radial load of over 70Kg.
 <p align="center">
   <img src="/images/OnStep_calc.jpeg" width="96.8%">
 </p>
+
 Using OnStep's configurator spreadsheet, I chose to drive the harmonic gearbox with a planetary gearbox [17HS15-1584S-MG10](https://www.omc-stepperonline.com/fr/nema-17-moteur-pas-a-pas-l-40mm-rapport-de-vitesse-10-1-reducteur-planetaire-serie-mg-17hs15-1584s-mg10), in order to achieve good tracking resolution, a good slew rate and a good number of steps/deg. Its reduction ratio is 1/10 and it is given for a low backlash (around 30 arcmin). Seen through the telescope, this low backlash will be divided by 100 by the main gearbox.
 
 <p align="center">
@@ -86,11 +88,11 @@ Using OnStep's configurator spreadsheet, I chose to drive the harmonic gearbox w
 </p>
 
 ## Motor holding
-<img style="float: left; padding-right: 20px; display: block; border: none;" src="/images/3Dprint/Motor_spacer.jpeg" width="20%">
+<img align="left"  src="/images/3Dprint/Motor_spacer.jpeg" width="20%">
 We start assembling the mount, attaching the motor and its planet gear to the 3D-printed motor spacer with M4 screws. I printed most of my parts in PETG or ABS, with an Ultimaker S7, in 0.15mm layers, slow speed, high infill, and 101% flow.
 Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides with M6. An M6 (external) to M4 (internal) insert is housed on one side of the two Rexroths. These two bars are then positioned in their housings, and secured with 4 T-nuts. The M6/M4 insert is located on the motor shaft side. It will be used to attach the assembly to the harmonic gearbox. Note the orientation of the Nema 17 motor in relation to the two 120mm bars. The motor wires must be oriented in the space available on the bar side.
 
-<img style="float: left; padding-right: 20px; display: block; border: none;" src="/images/3Dprint/CSF_spacer.jpeg" width="20%">
+<img align="left"  src="/images/3Dprint/CSF_spacer.jpeg" width="20%">
 Once the CSF spacer has been centered on the harmonic gearbox, the Motor+Spacer+Rexroth assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
 Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 <p align="center">
@@ -100,7 +102,7 @@ Don't forget to insert the key on the motor shaft, and secure the shaft in the h
 </p>
 
 ## Sides Rex
-<img style="float: left; padding-right: 20px; display: block; border: none;" src="/images/3Dprint/Rex_side.jpeg" width="20%">
+<img align="left"  src="/images/3Dprint/Rex_side.jpeg" width="20%">
 To assemble the frame sides, first cut two 76mm bars and four 100mm bars. You could also use 2 Bosch Rexroth [20 x 40 mm aluminium profiles](https://fr.rs-online.com/web/p/tubes-et-profiles-de-structures/2123294?gb=s), cut to 100mm. The 100mm bars are M6 tapped on one side. These threads will be used to secure the frame's back plate. Prepare 4 angle brackets with M4 and T-nuts.
 <p align="center">
   <img src="/images/HEQpol/HEQpol-10.jpg" width="48.4%">
@@ -117,9 +119,9 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
   <img src="/images/HEQpol/HEQpol-15.jpg" width="32%">
   <img src="/images/HEQpol/HEQpol-16.jpg" width="32%">
 </p> 
-<img style="float: left; padding-right: 20px; display: block; border: none;" src="/images/3Dprint/Side.jpeg" width="20%">
+<img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
-<img style="float: left; padding-right: 20px; display: block; border: none;" src="/images/3Dprint/Back.jpeg" width="20%">
+<img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
 Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate, after soldering the motor cable to it.
 <p align="center">
   <img src="/images/HEQpol/HEQpol-17.jpg" width="48.4%">
