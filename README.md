@@ -66,8 +66,8 @@ M5x10 | 8 | - | a few |
 M5x20 | 6 | - | a few | 
 M6x16 | 12 | - | a few | 
 20mm Bosch Rexroth profile | 1 | 212-3292 | 25 | [RS components](https://fr.rs-online.com/web/p/tubes-et-profiles-de-structures/2123292?gb=s)
-T-nuts | 64 | 466-7281 | 70 | [RS components](https://fr.rs-online.com/web/p/raccords-pour-elements-de-structure/1809136)
-M4 Angle Bracket | 24 | 180-9136 | 30 | [RS components](https://fr.rs-online.com/web/p/raccords-pour-elements-de-structure/4667281)
+T-nuts | 64 | 466-7281 | 70 | [RS components](https://fr.rs-online.com/web/p/raccords-pour-elements-de-structure/4667281)
+M4 Angle Bracket | 24 | 180-9136 | 30 | [RS components](https://fr.rs-online.com/web/p/raccords-pour-elements-de-structure/1809136)
 M4 inside M6 insert | 4 | B096VSWCBQ | 8 | [Amazon FR](https://www.amazon.fr/dp/B096VSWCBQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 Dovetail Clamp | 1 | EUF9144C | 30 | [Amazon FR](https://www.amazon.fr/gp/product/B08TC111QC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 Dovetail Mounting Plate | 1 | EUF9175B | 20 | [Amazon FR](https://www.amazon.fr/gp/product/B08XLWP13X/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
