@@ -133,13 +133,11 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
 
 <img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
 
-<img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
-
-
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
 
-Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
+<img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
 
+Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
 You have almost finished assembling a DHEM axis!
 
 <p align="center">
