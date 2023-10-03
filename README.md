@@ -7,7 +7,7 @@ To help me in my task, I have drawn on the work of several sources. I can't ment
 
 I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordinary DIY electronics project that makes the design of a goto astronomical mount accessible. 
 
-The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount.
+The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme.
 
 
 ## Support
