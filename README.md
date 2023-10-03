@@ -50,9 +50,9 @@ The 3D design was carried out on SolidWorks 2022 and OnShape. Here's a [sharing 
 ## Bill of materials
 Here's the shopping list for two axes. Prices are approximate: I already had quite a few parts in stock when designing the DHEM. The total investment is around 900€ for the mechanics, and I estimate the cost of making an [OnStep](https://onstep.groups.io/g/main/wiki/Home) MiniPCB2 controller at 100€.
 
-<b>The estimated total cost of the equatorial mount is around 1000€</b>.
+<b>The estimated total cost of the equatorial mount is less than 1000€</b>.
 
-I think you can manage for less by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 times less with no-name. I had Bosch in my stuff, so I didn't deprive myself.
+I think you can manage for less by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 times less with no-name ([for example](https://www.amazon.fr/EYPINS-Connecteur-Aluminium-28x28x20mm-dextrusion/dp/B08GPRB9W4/?th=1)). I had Bosch in my stuff, so I didn't deprive myself.
 
 ![final_assembly_1](/images/DHEM_assembly/DHEM_assembly-1.jpeg)
 
