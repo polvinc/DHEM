@@ -10,7 +10,7 @@ I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordi
 The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount.
 
 
----
+
 # What the hell is this DHEM thing?
 
 The technology used in this mount is similar to that used in robotics or industrial production lines. The main mechanical gearbox is a harmonic gearbox ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)). 
@@ -26,7 +26,7 @@ Conventional equatorial mounts require the use of counterweights. The aim of thi
 - Lightweight: max 5 kg
 - Minimum load weight without counterweight: > 12kg (to be tested)
 
----
+
 # Design
 ## 3D design
 The 3D design was carried out on SolidWorks 2022 and OnShape. Here's a [sharing of the design on OnShape](https://cad.onshape.com/documents/8746a60a1be674f3c5c8962f/w/75df6ccf1ddba0eb14d42c4d/e/8f9338159e7a1463ffcd3219?renderMode=0&uiState=651bece70db1c514a39d73c3). The project is a bit of a mess, but it includes all the components needed to assemble the mount. You will find all stl files for printing in this repo.
@@ -35,7 +35,7 @@ The 3D design was carried out on SolidWorks 2022 and OnShape. Here's a [sharing 
 </p>
 
 ## Bill of materials
-Here's the shopping list for two axes. The total investment is around 900€ for the mechanics, and I estimate the cost of making an [OnStep](https://onstep.groups.io/g/main/wiki/Home) MiniPCB2 controller at 100€.
+Here's the shopping list for two axes. Prices are approximate and can certainly be found cheaper. I had quite a few parts in stock when designing the DHEM. The total investment is around 900€ for the mechanics, and I estimate the cost of making an [OnStep](https://onstep.groups.io/g/main/wiki/Home) MiniPCB2 controller at 100€.
 
 <b>The estimated total cost of the equatorial mount is around 1000€</b>.
 
@@ -67,7 +67,6 @@ OnStep controller | 1 | MiniPCB2 | ~100 | [oshwlab](https://oshwlab.com/hujer.ro
 
 
 
----
 # Assembly
 ## Harmonic drive
 Harmonic gearboxes ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)), or more precisely strain wave gears, are a type of gear mechanism that transmits much more torque than other common gears. This is mainly due to the fact that there are many more teeth engaged at once. One of the major advantages of these gears is that they have virtually no backlash, partly because they use deformation. It's a bit like belts, which are supposed to be more or less backlash-free, but harmonic gearboxes use deformable metal spring steels, which are much better than belts.
@@ -159,7 +158,7 @@ I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. 
 </p> 
 
 
----
+
 # Tests
 <img align="right" src="/images/periodic_error/IMG_0544.jpeg" width="30%">
 
@@ -241,6 +240,6 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 - Comparison with AM5 and EQ6r.
 
 
----
+
 # Thanks
 Many thanks to the [Vélizy astronomy club](https://www.astro-velizy.fr/) (Paris region in France), and its very helpful members, for the advice, the loan of equipment, the time spent testing, and the encouragement in this mount project.
