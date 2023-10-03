@@ -154,8 +154,8 @@ You have almost finished assembling a DHEM axis!
 ## Vixen/Arca mount
 All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-19.jpeg" width="39%">
-  <img src="/images/HEQpol/HEQpol-21.jpeg" width="39%">
+  <img src="/images/HEQpol/HEQpol-19.jpeg" width="38%">
+  <img src="/images/HEQpol/HEQpol-21.jpeg" width="38%">
   <img src="/images/HEQpol/IMG_0523.jpeg" width="19%">
 </p>
 
