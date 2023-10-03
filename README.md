@@ -40,7 +40,7 @@ Here's the shopping list for two axes. The total investment is around 900€ for
 
 I think you can manage for less by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 times less with no-name. I had Bosch in my stuff, so I didn't deprive myself.
 
-![final_assembly_1](/images/HEQpol/HEQpol-1.jpg)
+![final_assembly_1](/images/HEQpol/HEQpol-1.jpeg)
 
 | Name | Quantity | Reference | Price € | Link |
 | -------- | -------- | -------- | -------- | -------- |
@@ -74,8 +74,8 @@ Harmonic gearboxes ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearin
 Put another way, in the case of an astronomical mount: they can drive much heavier loads without the need for counterweights, all with a very low self-weight!
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-2.jpg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-3.jpg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-2.jpeg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-3.jpeg" width="48.4%">
 </p> 
 
 The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? It can handle more than 50Nm of torque, with an accuracy better than 1.5arcmin = ±45arcsec. It also has a very comfortable permissible radial load of over 70Kg.
@@ -86,8 +86,8 @@ The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/file
 Using OnStep's configurator spreadsheet, I chose to drive the harmonic gearbox with a planetary gearbox [17HS15-1584S-MG10](https://www.omc-stepperonline.com/fr/nema-17-moteur-pas-a-pas-l-40mm-rapport-de-vitesse-10-1-reducteur-planetaire-serie-mg-17hs15-1584s-mg10), in order to achieve good tracking resolution, a good slew rate and a good number of steps/deg. Its reduction ratio is 1/10 and it is given for a low backlash (around 30 arcmin). Seen through the telescope, this low backlash will be divided by 100 by the main gearbox.
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-4.jpg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-5.jpg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-4.jpeg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-5.jpeg" width="48.4%">
 </p>
 
 ## Motor holding
@@ -101,28 +101,28 @@ Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides w
 Once the CSF spacer has been centered on the harmonic gearbox, the Motor+Spacer+Rexroth assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
 Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-6.jpg" width="22.5%">
-  <img src="/images/HEQpol/HEQpol-8.jpg" width="22.5%">
-  <img src="/images/HEQpol/HEQpol-9.jpg" width="50.6%">
+  <img src="/images/HEQpol/HEQpol-6.jpeg" width="22.5%">
+  <img src="/images/HEQpol/HEQpol-8.jpeg" width="22.5%">
+  <img src="/images/HEQpol/HEQpol-9.jpeg" width="50.6%">
 </p>
 
 ## Sides Rex
 <img align="left"  src="/images/3Dprint/Rex_side.jpeg" width="20%">
 To assemble the frame sides, first cut two 76mm bars and four 100mm bars. You could also use 2 Bosch Rexroth [20 x 40 mm aluminium profiles](https://fr.rs-online.com/web/p/tubes-et-profiles-de-structures/2123294?gb=s), cut to 100mm. The 100mm bars are M6 tapped on one side. These threads will be used to secure the frame's back plate. Prepare 4 angle brackets with M4 and T-nuts.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-10.jpg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-11.jpg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-10.jpeg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-11.jpeg" width="48.4%">
 </p> 
 Assemble with M4 T-nuts and four squares as shown in the pictures. Take care to ensure that the T-nuts are correctly seated in the grooves of the Rexroth bars.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-12.jpg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-13.jpg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-12.jpeg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-13.jpeg" width="48.4%">
 </p>
 The next step is to assemble the sides on the harmonic reducer. The harmonic reducer is always the reference point for perpendicularity. Fixing is achieved with 4 M4 screws and 4 T-nuts.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-14.jpg" width="32%">
-  <img src="/images/HEQpol/HEQpol-15.jpg" width="32%">
-  <img src="/images/HEQpol/HEQpol-16.jpg" width="32%">
+  <img src="/images/HEQpol/HEQpol-14.jpeg" width="32%">
+  <img src="/images/HEQpol/HEQpol-15.jpeg" width="32%">
+  <img src="/images/HEQpol/HEQpol-16.jpeg" width="32%">
 </p> 
 <img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
@@ -132,22 +132,22 @@ Finally, secure the bottom plate with 6 M6 screws and washers. When you've done 
 You have almost finished assembling a DHEM axis!
 
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-17.jpg" width="48.4%">
-  <img src="/images/HEQpol/HEQpol-18.jpg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-17.jpeg" width="48.4%">
+  <img src="/images/HEQpol/HEQpol-18.jpeg" width="48.4%">
 </p>
 
 ## Vixen/Arca mount
 All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-19.jpg" width="39%">
-  <img src="/images/HEQpol/HEQpol-21.jpg" width="39%">
+  <img src="/images/HEQpol/HEQpol-19.jpeg" width="39%">
+  <img src="/images/HEQpol/HEQpol-21.jpeg" width="39%">
   <img src="/images/HEQpol/IMG_0523.jpeg" width="19.5%">
 </p>
 
 ## Final assembly
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-24.jpg" width="98%">
-  <img src="/images/HEQpol/HEQpol-25.jpg" width="98%">
+  <img src="/images/HEQpol/HEQpol-24.jpeg" width="98%">
+  <img src="/images/HEQpol/HEQpol-25.jpeg" width="98%">
 </p>
 
 I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. In the future, I plan to design a Rexroth-based equatorial mount.
@@ -182,7 +182,7 @@ Resolution in arcsec per pixel can then be calculated as follows:
 
 In this test, I used a 480mm focal length and a CCD with 4.93µm pixel size (thanks to [Vélizy astronomy club](https://www.astro-velizy.fr/)). This gives an image resolution of around 2.12"/px. Below is a stacked image of approximately 30min of exposure (180 exposures of 10sec). The telescope was pointing at Altair. We could take into account the correction linked to the choice of star: Altair is at 8°57' apparent declination. We therefore need to multiply the amplitude by 1.012 (or forget this correction, as we're talking about a 1% error).
 <p align="center">
-  <img src="/images/periodic_error/periodic-error-all_stacked.jpg" width="98%">
+  <img src="/images/periodic_error/periodic-error-all_stacked.jpeg" width="98%">
 </p>
 
 Then, I take a few pixel measurements with Python help (source: [guiqwt](https://github.com/PlotPyStack/guiqwt)).
@@ -202,7 +202,7 @@ def window():
 def app():
     import guidata
     _app = guidata.qapplication()
-    fn = osp.join(osp.dirname(__file__), 'periodic-error-all_stacked.jpg')
+    fn = osp.join(osp.dirname(__file__), 'periodic-error-all_stacked.jpeg')
     win = window()
     image = make.image(filename=fn, colormap="bone")
     plot = win.get_plot()
@@ -235,7 +235,7 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 ## Next step: analysis of dynamic guiding behavior
 - How does Onstep+DHEM behave when correction pulses are sent by INDI commands?
 - How does the mechanics behave in terms of inertia, torque and increase in on-board mass (with or without counterweight)?? 
-- What is the impact of the small mechanical play on the declination axis during correction pulses (Tilting moment stiffness = 18.6 Nm/arcmin)?
+- What is the impact of the small mechanical play on the declination axis during correction pulses (tilting moment stiffness = 18.6 Nm/arcmin)?
 - Take a picture !
 - Comparison with AM5 and EQ6r.
 
