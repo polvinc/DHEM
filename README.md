@@ -246,7 +246,7 @@ if __name__ == "__main__":
   <img src="/images/periodic_error/periodic-error-measure-6.jpeg" width="32%">
 </p>
 
-I measure about 20px peak-to-peak amplitude, i.e. <b>about ±20" periodic error</b>. 
+I measure about 22px peak-to-peak amplitude, i.e. <b>about ±22" periodic error</b>. 
 
 The periodic error of harmonic gears is naturally greater than that of worm gears. This is mainly due to the fact that the pitch circle of the gear is relatively small. The datasheet also provides a precision <1.5 arcmin, i.e. 90arcsec.
 Self-guidance is therefore necessary for photography, and unguided photography is possible using short focal length lenses and/or short exposure. The ripple is smooth, with no hard points. The period is long compared with the few seconds of integration required with a guiding camera.
