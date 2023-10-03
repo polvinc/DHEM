@@ -150,7 +150,7 @@ All that remains is to attach the adapter rings for your dovetail/arca clamp. I 
 <p align="center">
   <img src="/images/HEQpol/HEQpol-19.jpeg" width="39%">
   <img src="/images/HEQpol/HEQpol-21.jpeg" width="39%">
-  <img src="/images/HEQpol/IMG_0523.jpeg" width="19.5%">
+  <img src="/images/HEQpol/IMG_0523.jpeg" width="19%">
 </p>
 
 ## Final assembly
@@ -171,6 +171,7 @@ I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. 
 # Tests
 <img align="right" src="/images/periodic_error/IMG_0544.jpeg" width="30%">
 
+- ✍️ Work still in progress
 - [Vélizy astronomy club](https://www.astro-velizy.fr/)
 - first tests
 - strategy
@@ -246,7 +247,8 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 - How does the mechanics behave in terms of inertia, torque and increase in on-board mass (with or without counterweight)?? 
 - What is the impact of the small mechanical play on the declination axis during correction pulses (tilting moment stiffness = 18.6 Nm/arcmin)?
 - Take a picture !
-- Comparison with AM5 and EQ6r.
+- Comparison with AM5 and EQ6r
+- And so on !
 
 
 
