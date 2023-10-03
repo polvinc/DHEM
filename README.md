@@ -52,7 +52,7 @@ Here's the shopping list for two axes. Prices are approximate: I already had qui
 
 <b>The estimated total cost of the equatorial mount is less than 1000€</b>.
 
-I think you can manage for less by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 times less with no-name ([for example](https://www.amazon.fr/EYPINS-Connecteur-Aluminium-28x28x20mm-dextrusion/dp/B08GPRB9W4/?th=1)). I had Bosch in my stuff, so I didn't deprive myself.
+I think you can save a lot of money by going to other supply sites. For example, I got about €70 worth of Bosch M4 T-nuts from RS Components, when I could have got them for 5 or 10 times less with no-name ([for example](https://www.amazon.fr/EYPINS-Connecteur-Aluminium-28x28x20mm-dextrusion/dp/B08GPRB9W4/?th=1), [another example](https://www.amazon.fr/alwaiiz-aluminium-galvanisé-dextrusion-européenne/dp/B0B5GKW3MT/)). I had Bosch in my stuff, so I didn't deprive myself.
 
 ![final_assembly_1](/images/DHEM_assembly/DHEM_assembly-1.jpeg)
 
