@@ -1,13 +1,12 @@
 # DHEM: a DIY Harmonic Equatorial Mount
 
-## ✍️ Work still in progress
 I'm a novice in astronomy or astrophotography, but I've been coding and making stuff, among other things for photography, for over 15 years now. I am a scientist, an expert in infrasound sensors, which has nothing to do with astrophotography, but above all I am eager for new challenges. Even though I don't have a telescope, about 2 years ago, in my free time, I set out to design a high performance equatorial mount that would be inexpensive relative to its performance, transportable, with a relatively large load capacity and easy to manufacture. Above all, this mount had to be easy to manufacture: no need for machine tools or other laser-waterjet-plasma-turbo-piston-5-axis cutting machines. A shopping list, a screwdriver, a saw and resourcefulness: you have everything you need to make a DHEM. The end goal was to make it available as an open-source product for personal use.
 
 To help me in my task, I have drawn on the work of several sources. I can't mention them all, but I'd like to thank the work of [Roman Hujer](https://github.com/romanhujer/HrEM) and [Kenichi Aihara](https://mr-deep-addicted.com/?page_id=1770), who introduced me to the benefits of a harmonic reducer for an equatorial mount using 3D printing. For the design I wanted to create, I had to limit machining and parts with adjustment. To achieve this, I designed the robot with a direct axial drive. As my work progressed, I discovered [Alan Zhao](https://alanz.info/posts/2022/07/diy-mount/)'s impressive work, and drew inspiration from it.
 
 I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordinary DIY electronics project that makes the design of a goto astronomical mount accessible. 
 
-The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme.
+The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
 
 
 ## Support
