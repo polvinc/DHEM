@@ -6,6 +6,14 @@ To help me in my task, I have drawn on the work of several sources. I can't ment
 
 I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordinary DIY electronics project that makes the design of a goto astronomical mount accessible. 
 
+I've already designed or built several robots for automated photo-taking. These were either made from designs sourced from various online designers, or were self-designed. I'm only sharing the current version, the DHEM equatorial mount, which is clearly the most accomplished.
+<p align="center">
+  <img src="/images/HEQpol/IMG_0566.jpeg" width="20%">
+  <img src="/images/HEQpol/IMG_0567.jpeg" width="20%">
+  <img src="/images/HEQpol/IMG_0568.jpeg" width="20%">
+  <img src="/images/HEQpol/IMG_0569.jpeg" width="20%">
+</p> 
+
 The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
 
 
@@ -164,7 +172,7 @@ All that remains is to attach the adapter rings for your dovetail/arca clamp. I 
   <img src="/images/HEQpol/HEQpol-25.jpeg" width="98%">
 </p>
 
-I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. In the future, I plan to design a Rexroth-based equatorial mount.
+I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. In the future, I plan to design a Rexroth-based equatorial table wich fits with the DHEM.
 <p align="center">
   <img src="/images/HEQpol/IMG_0562.jpeg" width="32%">
   <img src="/images/HEQpol/IMG_0563.jpeg" width="32%">
