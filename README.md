@@ -132,6 +132,7 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
 </p> 
 
 <img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
+
 <img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
 
 
