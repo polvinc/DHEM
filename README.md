@@ -89,10 +89,12 @@ Using OnStep's configurator spreadsheet, I chose to drive the harmonic gearbox w
 
 ## Motor holding
 <img align="left"  src="/images/3Dprint/Motor_spacer.jpeg" width="20%">
+
 We start assembling the mount, attaching the motor and its planet gear to the 3D-printed motor spacer with M4 screws. I printed most of my parts in PETG or ABS, with an Ultimaker S7, in 0.15mm layers, slow speed, high infill, and 101% flow.
 Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides with M6. An M6 (external) to M4 (internal) insert is housed on one side of the two Rexroths. These two bars are then positioned in their housings, and secured with 4 T-nuts. The M6/M4 insert is located on the motor shaft side. It will be used to attach the assembly to the harmonic gearbox. Note the orientation of the Nema 17 motor in relation to the two 120mm bars. The motor wires must be oriented in the space available on the bar side.
 
 <img align="left"  src="/images/3Dprint/CSF_spacer.jpeg" width="20%">
+
 Once the CSF spacer has been centered on the harmonic gearbox, the Motor+Spacer+Rexroth assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
 Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 <p align="center">
@@ -122,7 +124,7 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
 <img align="left"  src="/images/3Dprint/Side.jpeg" width="20%">
 Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
 <img align="left"  src="/images/3Dprint/Back.jpeg" width="20%">
-Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate, after soldering the motor cable to it.
+Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
 <p align="center">
   <img src="/images/HEQpol/HEQpol-17.jpg" width="48.4%">
   <img src="/images/HEQpol/HEQpol-18.jpg" width="48.4%">
@@ -131,8 +133,8 @@ Finally, secure the bottom plate with 6 M6 screws and washers. When you've done 
 ## Vixen/Arca mount
 All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests.
 <p align="center">
-  <img src="/images/HEQpol/HEQpol-19.jpg" width="39.5%">
-  <img src="/images/HEQpol/HEQpol-21.jpg" width="39.5%">
+  <img src="/images/HEQpol/HEQpol-19.jpg" width="39%">
+  <img src="/images/HEQpol/HEQpol-21.jpg" width="39%">
   <img src="/images/HEQpol/IMG_0523.jpeg" width="20%">
 </p>
 
