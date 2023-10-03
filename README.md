@@ -78,7 +78,7 @@ Put another way, in the case of an astronomical mount: they can drive much heavi
   <img src="/images/HEQpol/HEQpol-3.jpg" width="48.4%">
 </p> 
 
-The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? It can handle more than 50Nm of torque, with an accuracy better than 1.5arcmin = ±45arcsec. It also has a very comfortable permissible radial load of over 70Kg.
+The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? It can handle more than 50Nm of torque, with an accuracy better than 1.5arcmin = ±45arcsec. It also has a very comfortable permissible radial load of over 70Kg.
 <p align="center">
   <img src="/images/OnStep_calc.jpeg" width="96.8%">
 </p>
@@ -233,10 +233,9 @@ If I dare to compare with commercially available harmonic frames, I can see that
 The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36.9min. The stacked image shows about 5 periods of oscillation. From this, we can deduce the duration of an oscillation period to be approximately 7.4min. The measured period is therefore <b>approximately 440 seconds</b>. In fact, if we look at the operation of a harmonic gearbox, the wave generator (attached to input shaft) produces a rotation of 100 turns per 360 degrees on the output shaft. For each revolution of the wave generator, we have twice the period of the potential periodic error. We can deduce the theoretical period of the periodic error equal to (24x60x60)/(2x100)=432sec. We're pretty close to what we roughly measure on the stacked image, which is reassuring! We can assume that the period is somewhere around these two values. Only the training of a self-guidance model will be able to tell.
 
 ## Next step: analysis of dynamic guiding behavior
-- How does Onstep behave when correction pulses are sent?
-- Does it behave in the same way with ST4 pulses and INDI commands?
-- How does mechanics behave in terms of inertia and torque? 
-- What is the impact of mechanical play on the declination axis during correction pulses?
+- How does Onstep+DHEM behave when correction pulses are sent by INDI commands?
+- How does the mechanics behave in terms of inertia, torque and increase in on-board mass (with or without counterweight)?? 
+- What is the impact of the small mechanical play on the declination axis during correction pulses (Tilting moment stiffness = 18.6 Nm/arcmin)?
 - Take a picture !
 - Comparison with AM5 and EQ6r.
 
