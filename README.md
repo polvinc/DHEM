@@ -115,6 +115,7 @@ Using [OnStep's configurator spreadsheet](http://o.baheyeldin.com:1111), I chose
   Once the CSF spacer has been centered on the harmonic gearbox, the assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
   Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 </p>
+
 <p align="center">
   <img src="/images/DHEM_assembly/DHEM_assembly-6.jpeg" width="22.5%">
   <img src="/images/DHEM_assembly/DHEM_assembly-8.jpeg" width="22.5%">
