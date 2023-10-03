@@ -12,7 +12,7 @@ The first results of the performance tests are up to my expectations for the mom
 
 ## Support
 
-Hey! Help me out for a couple of :beers: or a :coffee:!
+Hey! Help me out for a couple of :beers: !
 
 <a href="https://www.buymeacoffee.com/polvinc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
