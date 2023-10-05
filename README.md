@@ -1,30 +1,7 @@
 # DHEM: another DIY Harmonic Equatorial Mount
+## What the hell is this DHEM thing?
 
-I'm a novice in astronomy or astrophotography, but I've been coding and making stuff, among other things for photography, for over 15 years now. I am a scientist, an expert in infrasound sensors, which has nothing to do with astrophotography, but above all I am eager for new challenges. Even though I don't have a telescope, about 2 years ago, in my free time, I set out to design a high performance equatorial mount that would be inexpensive relative to its performance, transportable, with a relatively large load capacity and easy to manufacture. Above all, this mount had to be easy to manufacture: no need for machine tools or other laser-waterjet-plasma-turbo-piston-5-axis cutting machines. A shopping list, a screwdriver, a saw and resourcefulness: you have everything you need to make a DHEM. The end goal was to make it available as an open-source product for personal use.
-
-To help me in my task, I have drawn on the work of several sources. I can't mention them all, but I'd like to thank the work of [Roman Hujer](https://github.com/romanhujer/HrEM) and [Kenichi Aihara](https://mr-deep-addicted.com/?page_id=1770), who introduced me to the benefits of a harmonic reducer for an equatorial mount using 3D printing. For the design I wanted to create, I had to limit machining and parts with adjustment. To achieve this, I designed the robot with a direct axial drive. As my work progressed, I discovered [Alan Zhao](https://alanz.info/posts/2022/07/diy-mount/)'s impressive work, and drew inspiration from it.
-
-I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordinary DIY electronics project that makes the design of a goto astronomical mount accessible. 
-
-I've already designed or built several robots for automated photo-taking. These were either made from designs sourced from various online designers, or were self-designed. I'm only sharing the current version, the DHEM equatorial mount, which is clearly the most accomplished.
-<p align="center">
-  <img src="/images/DHEM_assembly/IMG_0566.jpeg" width="20%">
-  <img src="/images/DHEM_assembly/IMG_0567.jpeg" width="20%">
-  <img src="/images/DHEM_assembly/IMG_0568.jpeg" width="20%">
-  <img src="/images/DHEM_assembly/IMG_0569.jpeg" width="20%">
-</p> 
-
-The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
-
-
-## Support
-
-Hey! Help me out for a couple of :beers: !
-
-<a href="https://www.buymeacoffee.com/polvinc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-
-# What the hell is this DHEM thing?
+DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity, and easy to manufacture. Above all, this mount is easy to manufacture: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
 
 The technology used in this mount is similar to that used in robotics or industrial production lines. The main mechanical gearbox is a harmonic gearbox ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)). 
 
@@ -34,10 +11,19 @@ It can produce surprising results for an astronomical mount at first glance; the
 Conventional equatorial mounts require the use of counterweights. The aim of this development is to make available the design of a harmonic mount that can be built in your garage, with few tools or mechanical knowledge, for a price of less than 1000€. Of course, the proud aim is to achieve performance equivalent to that of commercial harmonic reduction mounts.
 
 - Harmonic gear motor
-- BOM around 1000€
+- BOM less than 1000€
 - No need for machine tools: all you need is a saw and a screwdriver!
 - Lightweight: max 5 kg
 - Minimum load weight without counterweight: > 12kg (to be tested)
+
+The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
+
+## Support
+
+Hey! Help me out for a couple of :beers: !
+
+<a href="https://www.buymeacoffee.com/polvinc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 
 
 # Design
@@ -263,6 +249,25 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 - Take a picture !
 - Comparison with AM5 and EQ6-R
 - And so on !
+
+
+
+# About me
+I'm a novice in astronomy or astrophotography, but I've been coding and making stuff, among other things for photography, for over 15 years now. I am a scientist, an expert in infrasound sensors, which has nothing to do with astrophotography, but above all I am eager for new challenges. Even though I don't have a telescope (for the moment, only a few pro DSLR cameras and telephoto lenses), about 2 years ago, in my free time, I set out this design.
+
+To help me in my task, I have drawn on the work of several sources. I can't mention them all, but I'd like to thank the work of [Roman Hujer](https://github.com/romanhujer/HrEM) and [Kenichi Aihara](https://mr-deep-addicted.com/?page_id=1770), who introduced me to the benefits of a harmonic reducer for an equatorial mount using 3D printing. For the design I wanted to create, I had to limit machining and parts with adjustment. To achieve this, I designed the robot with a direct axial drive. As my work progressed, I discovered [Alan Zhao](https://alanz.info/posts/2022/07/diy-mount/)'s impressive work, and drew inspiration from it.
+
+I must also mention the [Onstep](http://onstep.groups.io/) project, an extraordinary DIY electronics project that makes the design of a goto astronomical mount accessible. 
+
+I've already designed or built several robots for automated photo-taking. These were either made from designs sourced from various online designers, or were self-designed. I'm only sharing the current version, the DHEM equatorial mount, which is clearly the most accomplished.
+<p align="center">
+  <img src="/images/DHEM_assembly/IMG_0566.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0567.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0568.jpeg" width="20%">
+  <img src="/images/DHEM_assembly/IMG_0569.jpeg" width="20%">
+</p> 
+
+The first results of the performance tests are up to my expectations for the moment. I hope this github repository can help you design or reproduce this equatorial mount. Please be patient, I'm only working on this project in my spare time. I'll update the testing progress on this readme. ✍️
 
 
 
