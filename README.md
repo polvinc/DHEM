@@ -3,6 +3,10 @@
 
 DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity, and easy to manufacture. Above all, this mount is easy to manufacture: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
 
+<p align="center">
+  <img src="/images/DHEM_assembly/exploded_view.png" width="96.8%">
+</p>
+
 The technology used in this mount is similar to that used in robotics or industrial production lines. The main mechanical gearbox is a harmonic gearbox ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)). 
 
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HarmonicDriveAni.gif/240px-HarmonicDriveAni.gif" width="15%">
