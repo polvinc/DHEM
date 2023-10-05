@@ -33,8 +33,9 @@ Hey! Help me out for a couple of :beers: !
 # Design
 ## 3D design
 The 3D design was carried out on SolidWorks 2022 and OnShape. Here's a [sharing of the design on OnShape](https://cad.onshape.com/documents/8746a60a1be674f3c5c8962f/w/75df6ccf1ddba0eb14d42c4d/e/8f9338159e7a1463ffcd3219?renderMode=0&uiState=651bece70db1c514a39d73c3). The project is a bit of a mess, but it includes all the components needed to assemble the mount. You will find all stl files for printing in this repo.
+
 <p align="center">
-  <img src="/images/printing/global-vue.jpeg" width="96.8%">
+  <img src="/images/DHEM_assembly/global_view.png" width="96.8%">
 </p>
 
 ## Bill of materials
