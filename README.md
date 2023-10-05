@@ -1,7 +1,7 @@
 # DHEM: another DIY Harmonic Equatorial Mount
 ## What the hell is this DHEM thing?
 
-DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity, and easy to manufacture. Above all, this mount is easy to manufacture: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
+DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity, and easy to build. Most importantly, this mount is easy to make: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
 
 <p align="center">
   <img src="/images/DHEM_assembly/exploded_view.png" width="96.8%">
