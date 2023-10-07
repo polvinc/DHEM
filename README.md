@@ -69,7 +69,7 @@ OnStep controller | 1 | MiniPCB2 | ~100 | [oshwlab](https://oshwlab.com/hujer.ro
 
 # Assembly
 
-<img align="center" src="https://github.com/polvinc/DHEM/images/DHEM_assembly/drawing.png" width="96.8%">
+<img align="center" src="https://github.com/polvinc/DHEM/tree/main/images/DHEM_assembly/drawing.png" width="96.8%">
 
 ## Harmonic drive
 Harmonic gearboxes ([wikipedia](https://en.wikipedia.org/wiki/Strain_wave_gearing)), or more precisely strain wave gears, are a type of gear mechanism that transmits much more torque than other common gears. This is mainly due to the fact that there are many more teeth engaged at once. One of the major advantages of these gears is that they have virtually no backlash, partly because they use deformation. It's a bit like belts, which are supposed to be more or less backlash-free, but harmonic gearboxes use deformable metal spring steels, which are much better than belts.
