@@ -1,7 +1,7 @@
 # DHEM: another DIY Harmonic Equatorial Mount
 ## What the hell is this DHEM thing?
 
-DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity, and easy to build. Most importantly, this mount is easy to make: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
+DHEM (DIY Harmonic Equatorial Mount) is an equatorial mount for observation or astrophotography. It is based on the use of a harmonic reducer. The mount is designed to be inexpensive in relation to its performance, transportable, with a relatively large load capacity. Most importantly, this mount is easy to build: no need for machine tools or other laser-cutting-water-jet-plasma-turbo-piston-5-axis machines. A shopping list, a screwdriver, a saw and some resourcefulness: you've got everything you need to make a DHEM. The ultimate aim is to distribute its design as an open-source product for personal use.
 
 ![exploded_view](/images/DHEM_assembly/exploded_view.png)
 
@@ -81,7 +81,7 @@ Put another way, in the case of an astronomical mount: they can drive much heavi
   <img src="images/DHEM_assembly/DHEM_assembly-3.jpeg" width="48.4%">
 </p> 
 
-The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. You can find lots of them on ebay. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? According to datashet, it can handle more than 50Nm of torque and it also has a very comfortable permissible radial load of over 70Kg.
+The harmonic reducer model chosen [CSF-17-100-2UH](https://harmonicdrive.de/fileadmin/user_upload/Harmonic_Drive_Gears_EN_1050860_06_2022.pdf#page=50) is the same as [Alan](https://alanz.info/posts/2022/07/diy-mount/) DIY mount. You can find lots of them on ebay. This one has a reduction ratio of 1/100. It has the good fortune to meet my requirements, and to have been tested for another equatorial mount. Why deprive yourself? According to datasheet, it can handle more than 50Nm of torque and it also has a very comfortable permissible radial load of over 70Kg.
 <p align="center">
   <img src="images/OnStep_calc.jpeg" width="96.8%">
 </p>
@@ -153,7 +153,7 @@ You have almost finished assembling a DHEM axis!
 </p>
 
 ## Vixen/Arca mount
-All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests.
+All that remains is to attach the adapter rings for your dovetail/arca clamp. I also made a plate from a block of aluminum, which seemed more rigid to me during the carrying mass tests. It's up to you to design your vixen clamp adapter if you don't choose the BOM one. I've made two versions: an arca swiss one for photo lenses, and a vixen one for telescopes.
 <p align="center">
   <img src="images/DHEM_assembly/DHEM_assembly-19.jpeg" width="38%">
   <img src="images/DHEM_assembly/DHEM_assembly-21.jpeg" width="38%">
@@ -180,13 +180,13 @@ I had in stock a small equatorial table (Omegon 55mm) on which I put the mount. 
 
 - ✍️ Work still in progress
 - [Vélizy astronomy club](https://www.astro-velizy.fr/)
-- first tests
-- strategy
-- astrophoto
-- mount capacity
-- mechanics
-- electronics
-- software
+- First tests
+- Strategy
+- Astrophoto
+- Mount capacity
+- Mechanics
+- Electronics
+- Software
 
 ## Periodic error measurements
 One way to measure the mount's periodic error is to derange its polar alignment by 5-10°, point at a star in the celestial equator zone, set the mount to tracking (it thinks it's compensating for the earth's rotation when it's misaligned), and let a star drift in the field for a while. By stacking the images of this star's drift, we can observe an image of the periodic error pattern. If the star drift is perfectly linear, the mount has no periodic error. If, on the other hand, the star drift follows a sinusoidal pattern, then we observe a periodic error due to the mechanics of the mount. Pixel measurements are then used to quantify the error.
@@ -240,12 +240,12 @@ if __name__ == "__main__":
   <img src="images/periodic_error/periodic-error-measure-6.jpeg" width="32%">
 </p>
 
-I measure about 22px peak-to-peak amplitude, i.e. <b>about ±22" periodic error</b>. 
+I measure about 22px peak-to-peak amplitude, i.e. <b>about ±23" periodic error</b>. 
 
 The periodic error of harmonic gears is naturally greater than that of worm gears. This is mainly due to the fact that the pitch circle of the gear is relatively small. The datasheet also provides a precision <1.5 arcmin, i.e. 90arcsec.
 Self-guidance is therefore necessary for photography, and unguided photography is possible using short focal length lenses and/or short exposure. The ripple is smooth, with no hard points. The period is long compared with the few seconds of integration required with a guiding camera.
 
-If I dare to compare with commercially available harmonic frames, I can see that we're in the right order of magnitude. For example, for the ZWO AM5, many different values can be found on the Internet, but the order of magnitude of the periodic error seems to be around ±15" ([ZWO](https://astronomy-imaging-camera.com/tutorials/10-things-you-need-to-know-about-the-custom-am5s-pe-test-report-provided-by-zwo/)). For the Rainbow Astro RST-135, it's about ±30" ([Rainbow Astro](https://www.rainbowastro.com/faq-eng/#:~:text=We%20don%27t%20make%20an,length%20lenses%20and%20short%20exposure)).
+If I dare to compare with commercially available harmonic mount, I can see that we're in the right order of magnitude. For example, for the ZWO AM5, many different values can be found on the Internet, but the order of magnitude of the periodic error seems to be around ±20" ([ZWO](https://astronomy-imaging-camera.com/tutorials/10-things-you-need-to-know-about-the-custom-am5s-pe-test-report-provided-by-zwo/)). For the Rainbow Astro RST-135, it's about ±30" ([Rainbow Astro](https://www.rainbowastro.com/faq-eng/#:~:text=We%20don%27t%20make%20an,length%20lenses%20and%20short%20exposure)).
 
 The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36.9min. The stacked image shows about 5 periods of oscillation. From this, we can deduce the duration of an oscillation period to be approximately 7.4min. The measured period is therefore <b>approximately 440 seconds</b>. In fact, if we look at the operation of a harmonic gearbox, the wave generator (attached to input shaft) produces a rotation of 100 turns per 360 degrees on the output shaft. For each revolution of the wave generator, we have twice the period of the potential periodic error. We can deduce the theoretical period of the periodic error equal to (24x60x60)/(2x100)=432sec. We're pretty close to what we roughly measure on the stacked image, which is reassuring! We can assume that the period is somewhere around these two values. Only the training of a self-guidance model will be able to tell.
 
