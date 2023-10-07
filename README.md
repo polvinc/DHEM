@@ -104,6 +104,8 @@ Two 20mm Bosch Rexroth profile bars are cut at 120mm, and tapped on both sides w
 Once the CSF spacer has been centered on the harmonic gearbox, the assembly is secured to the gearbox using two M4 screws. Make sure you fit your 2 M4 screws into two plain holes in the gearbox flange. Do not use the tapped holes (every other hole is plain).
 Don't forget to insert the key on the motor shaft, and secure the shaft in the harmonic gearbox with the two M3 set screws. Make sure that the bars are properly aligned, perpendicular to the bearing plane on the harmonic gearbox.
 
+As can be seen from the images, the 3D printed motor spacer has no major structural function. It provides a few degrees of flexibility between the planetary gearbox shaft and the harmonic gearbox bore. Its only structural function is to hold and space the motor, with only a degree of rigidity on the torque transmission. So it's no big deal that this part is 3D printed and not made of metal. Once again, however, take care to print the parts properly.
+
 <p align="center">
   <img src="images/DHEM_assembly/DHEM_assembly-6.jpeg" width="22.5%">
   <img src="images/DHEM_assembly/DHEM_assembly-8.jpeg" width="22.5%">
@@ -137,11 +139,11 @@ The next step is to assemble the sides on the harmonic reducer. The harmonic red
 
 <img align="left"  src="images/printing/Side.jpeg" width="20%">
 
-Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates.
+Now it's time to position the frame blanks, using the two printed supports to bridge the gap between the brackets and the bars. Take care to align the brackets with the Rexroths already in place, mainly for aesthetic reasons, but also for the future attachment of the dovetail/arca mounting plates. There are a couple of parts to be printed four times, and oriented correctly along the aluminium profile sides. The most important thing in this part of the assembly is to properly secure the T-nuts in the profile. The screws compress the 3D-printed spacers, so there's no risk of weakening the structure.
 
 <img align="left"  src="images/printing/Back.jpeg" width="20%">
 
-Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors.
+Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors. You may need to modify this part if you choose a different RJ45 or other connector.
 You have almost finished assembling a DHEM axis!
 
 <p align="center">
