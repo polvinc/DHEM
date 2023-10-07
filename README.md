@@ -144,6 +144,7 @@ Now it's time to position the frame blanks, using the two printed supports to br
 <img align="left"  src="images/printing/Back.jpeg" width="20%">
 
 Finally, secure the bottom plate with 6 M6 screws and washers. When you've done this, you can check that your Rexroths are correctly aligned. Beforehand, you can attach the ethernet connector to the back plate with M3, after soldering the motor cable to it. I chose the MRJ5380M1 because my OnStep comes out in RJ45 and I had some in stock, but it is not necessarily the cheapest of the RJ45 connectors. You may need to modify this part if you choose a different RJ45 or other connector.
+
 You have almost finished assembling a DHEM axis!
 
 <p align="center">
