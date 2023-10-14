@@ -252,7 +252,8 @@ The sequence of 180 images was produced between 23h34m17s and 00h11m10s, i.e. 36
 
 ## Guiding performances
 
-([Good article on harmonic mount, periodic error and guiding]https://bbs.astronomy-imaging-camera.com/d/15989-getting-the-best-performance-from-my-am5)
+[Good article on harmonic mount, periodic error and guiding](https://bbs.astronomy-imaging-camera.com/d/15989-getting-the-best-performance-from-my-am5)
+[NASA](https://articles.adsabs.harvard.edu//full/1991NASCP3113..237N/0000241.000.html)
 
 
 ## Next step: analysis of dynamic guiding behavior
