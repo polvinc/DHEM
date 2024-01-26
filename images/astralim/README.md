@@ -1,6 +1,6 @@
 # AstrAlim board
 ## Open-source project
-[link to the pcb design: ](https://oshwlab.com/pololamag/nafa-astralim)
+[link to the pcb design](https://oshwlab.com/pololamag/nafa-astralim)
 
 Designed for amateur astronomers and built in conjunction with the hardware solution [NAFA-Hardware](https://github.com/dragonlost/NAFABox-hardware) (Nomad Astronomy For All), **AstrAlim** is a purpose-built add-on for the Raspberry Pi 5 or 4 mini-computer, specifically crafted to handle the electrical aspects of astrophotography sessions. This all-in-one HAT (Hardware Attached on Top) delivers the following features:
 - **A single 12V DC, 15A input** in XT30 format streamlines power supply for the entire photo session, reducing complications and friction during telescope movement. It includes polarity protection.
@@ -19,4 +19,4 @@ The software is currently being developed and fine-tuned.
 
 A few statistics: 4 layers, 131 components, 1.7m track length, 97 vias, 446 pads, 48 resistors, 26 capacitors, 5 transistors, 5 MOSFETs, 5 polyfuses, 5 LEDs...
 
-![AstrAlim_fcts.png](//image.easyeda.com/pullimage/ECG237k8oqopULxgYAXhKNfTiLsqNqy6pUzwKV6r.png)
+![AstrAlim_fcts.png](https://image.easyeda.com/pullimage/ECG237k8oqopULxgYAXhKNfTiLsqNqy6pUzwKV6r.png)
